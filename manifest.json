@@ -1,0 +1,24 @@
+{
+  "manifest_version": 3,
+  "name": "twitter-simple",
+  "description": "remove unwanted things from twitter",
+  "version": "1.0",
+  "content_scripts": [
+    {
+      "css": [
+        "style.css"
+      ],
+      "matches": [
+        "https://x.com/*"
+      ]
+    },
+    {
+      "js": [
+        "content.js"
+      ],
+      "matches": [
+        "https://x.com/*"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+a[href="/i/grok"][aria-label="Grok"],
+a[href="/i/premium_sign_up"][aria-label="Premium"],
+a[href="/i/verified-orgs-signup"][aria-label="Verified Orgs"] {
+  display: none;
+}
+
+div[role="tablist"]>div[role="presentation"]:first-child {
+  display: none;
+}
